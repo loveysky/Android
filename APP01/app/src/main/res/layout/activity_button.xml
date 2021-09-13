@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BCD4"
+        android:text="按钮1"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/ba_btn_2"
+        android:text="按钮2"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_below="@+id/btn1"
+        android:layout_marginTop="15dp">
+    </Button>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/ba_btn_3"
+        android:text="按钮3"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_below="@+id/btn2"
+        android:layout_marginTop="15dp">
+    </Button>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn3"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ba_btn_touch"
+        android:text="按钮4"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></Button>
+
+</RelativeLayout>
