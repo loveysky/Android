@@ -7,7 +7,7 @@
         corners四个角     padding间距
         gradient 渐变色   stroke 边缘线-->
 
-    <solid android:color="#1F2129" />
+    <solid android:color="#262626" />
     <corners android:topLeftRadius="40dp"
         android:topRightRadius="40dp"/>
 

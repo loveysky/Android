@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-<!--  每个按钮的设计  -->
+    <!--下部按钮的背景设计-->
 
     <!--size 尺寸         solid 固定的颜色
         corners四个角     padding间距
@@ -9,5 +9,5 @@
 
     <corners android:radius="10dp"></corners>
     <solid android:color="#4682B4"></solid>
-    <size android:width="60dp" android:height="60dp"></size>
+    <size android:width="60dp" android:height="30dp"></size>
 </shape>
